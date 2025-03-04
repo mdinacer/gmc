@@ -1,0 +1,109 @@
+/* Global Styles */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700|Work+Sans:300,400,500,600,700&display=swap); /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html {
+  font-family: sans-serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Header */
+header {
+  padding: 20px 0;
+  text-align: center;
+}
+
+header img {
+  width: 268px;
+  height: 33px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+.selected {
+  color: #00b39b;
+}
+
+nav ul li a {
+  color: #ababab;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+/* Hero Section */
+#hero {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #d0faf4;
+}
+#hero h2 {
+  color: #00b39b;
+}
+#hero p {
+  color: #747474;
+}
+
+/* Services Section */
+#services {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 0;
+}
+
+#services :nth-child(1) {
+  background-color: #00ccb1;
+}
+#services :nth-child(2) {
+  background-color: #3d83df;
+}
+#services :nth-child(3) {
+  background-color: #1b2734;
+}
+
+.service {
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 200px;
+}
+
+/* Stats Section */
+#stats {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #2d84d3;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
